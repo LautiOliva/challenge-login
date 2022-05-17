@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2? familia=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bold: 700;
+  --medium: 300;
+  --thin: 100;
+}
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #ff8080,
+    #d66581,
+    #a84f7d,
+    #773f70,
+    #472f5d
+  );
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+p {
+  color: #fff;
+}
+
+.conteiner__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+}
+
+.SingUp {
+  border: none;
+  background-color: #ff8080;
+  color: #fff;
+  padding: 1rem;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.boton {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #ff8080;
+}
+
+input {
+  opacity: 0.4;
+  padding: 1rem;
+  width: 350px;
+  border-color: #fff;
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.sing-in {
+  margin-top: 20px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+div.welcome p {
+  font-weight: var(--thin);
+  font-size: 1.5rem;
+  width: 250px;
+  text-align: center;
+}
+
+div.welcome h1{
+    font-weight: var(--medium);
+}
